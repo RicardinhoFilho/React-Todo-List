@@ -1,4 +1,5 @@
 import React from "react";
+import "./Todo.css";
 
 const Todo = ({ text, todos, setTodos, id, todo }) => {
   //Events
@@ -24,7 +25,7 @@ const Todo = ({ text, todos, setTodos, id, todo }) => {
 
   return (
     <div className="todo">
-      <li className={`todo-item ${todo.completed ? "completed" : ""}`}>{text}</li>
+      <li className={`todo-item ${todo.completed ? "completed" : ""} `}>{text}</li>
       <button className="complete-btn" onClick={completeHandler}>
         <i className="fas fa-check"></i>
       </button>

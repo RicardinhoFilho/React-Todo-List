@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import  './Form.css'
 
 const Form = ({inputText, setInputText,todos, setTodos, setStatus})=>{
 

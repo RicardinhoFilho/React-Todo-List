@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 //Import Components
-import Form from "./components/Form";
-import TodoList from "./components/TodoList";
+import Form from "./components/Form/Form";
+import TodoList from "./components/TodoList/TodoList";
 
 function App() {
 
